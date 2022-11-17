@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saberes Sustentáveis</title>
+    <link rel="stylesheet" href="fotos.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body class="bodyFotos">
+
+    <header>
+        <nav class="navFotos">
+            <div class="menu">
+                <div class="navMenu">
+                    <a href="index.html"><button class="linksNav"> Home </button></a>
+                </div>
+
+                <div class="navMenu">
+                    <a href="index.html#saberesSec"><button class="linksNavS"> Os Saberes</button></a>
+                </div>
+
+                <div class="navMenu">
+                    <button class="click"> Audiovisuais▼</button>
+                    <div class="list">
+                        <a href="audios.html"><button class="links"> Audiogramas </button></a>
+                        <a href="fotos.html"><button class="links"> Fotos </button></a>
+                        <a href="videos.html"><button class="links"> Videoteca </button></a>
+                    </div>
+                </div>
+
+                <div class="navMenu">
+                    <a href="contato.html"><button class="linksNav"> Contato </button></a>
+                </div>
+
+            </div>
+
+
+            <div class="navLogo">
+                <a href="index.html">
+                    <img class="imgLogo" src="imgs/logos/logosaberestxtbranco.png">
+                </a>
+            </div>
+            <div class="navLogos">
+                <div class="logos">
+                    <img class="logoUfrn" src="imgs/logos/logoufrnbranca.png">
+                    <img class="imgLogosApoio" src="imgs/logos/LOGOCIRSBranca.png">
+                    <img class="imgLogosApoio" src="imgs/logos/PPGASLOGOp.png">
+
+                    <img class="logoFunpec" src="imgs/logos/Funpec.png">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="tituloPgFotos">
+            <p>Galeria de Fotos</p>
+        </div>
+
+        <div class="conteudoFotos">
+
+            <div class="boxGaleria galeriaAtiva">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter()">
+
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">
+
+                    <p>Escola de Jiu-Jistu de Pium</p>
+
+                </div>
+
+                <div class="textoGaleria">Encontro com o professor Handerson no dia 21/01/2022 que explicou a
+                    importância da prática de artes marciais para jovens da colônia de Pium.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+
+                    <div class="capas">
+
+                        <div class="capa" id="idCapa">
+
+                            <img id="idImgCapa" src="imgs/albuns/jiujitsu/1.jpg" alt="" />
+
+                        </div>
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/jiujitsu/1.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jiujitsu/2.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jiujitsu/3.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jiujitsu/4.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jiujitsu/5.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jiujitsu/6.jpg" alt="" /></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Rodas de conversa
+
+                </div>
+
+                <div class="textoGaleria">Entre os dias 15 a 17 de junho de 2022, foram organizadas 3 rodas de
+                    conversa "Sabores e fazeres" durante a I Feira Nordestina de Agricultura Familiar e Economia
+                    Solidária (Fenafes) sobre alimentação, patrimônio e políticas públicas.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+                    <div class="capas">
+                        <div class="capa">
+                            <img src="imgs/albuns/1fenafes/1.jpg" alt="" />
+                        </div>
+                    </div>
+
+
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/1fenafes/1.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/2.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/3.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/4.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/5.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/6.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/7.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/8.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/9.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/10.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/11.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/12.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/13.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/14.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/15.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/16.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/17.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/18.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/19.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/20.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/21.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/22.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/23.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/24.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/25.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/26.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/27.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/28.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/29.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/30.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/1fenafes/31.jpeg" alt="" /></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Visita a escola Josefa Botelho</div>
+                <div class="textoGaleria">A equipe visitou a escola municipal Josefa Botelho para apresentar o projeto e
+                    possíveis ações: agrofloresta, jardim sensorial, “Sisteminha” na escola, oficinas de audiovisual,
+                    etc.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+                    <div class="capas">
+                        <div class="capa">
+                            <img src="imgs/albuns/josefabotelho/01.jpeg" alt="" />
+                        </div>
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/josefabotelho/01.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/02.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/03.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/04.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/05.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/06.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/07.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/josefabotelho/08.jpeg" alt="" /></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Começo</div>
+                <div class="textoGaleria">Reunião de planejamento do projeto Saberes Sustentáveis no dia 31/03/2022.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+                    <div class="capas">
+                        <div class="capa">
+                            <img src="imgs/albuns/Reunioesdaequipe/01.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/Reunioesdaequipe/01.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/02.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/03.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/04.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/05.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/06.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/07.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/08.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/09.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/10.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/11.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/12.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/13.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/14.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/15.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/16.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/Reunioesdaequipe/17.jpg" alt="" /></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Jardim Sensorial</div>
+                <div class="textoGaleria">A equipe do jardim sensorial, do Parque das Ciências, Museu Câmara Cascudo
+                    (UFRN), recebeu os integrantes do projeto Saberes Sustentáveis e alunos do curso de graduação em
+                    Arquitetura da UFRN na manhã do dia 12 de maio de 2022. Foi realizada uma visita guiada do jardim
+                    para ser replicado nas escolas de Pium e Ponta Negra.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+
+                    <div class="capas">
+                        <div class="capa">
+                            <img src="imgs/albuns/jardimsensorial/01.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/jardimsensorial/01.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/02.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/03.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/04.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/05.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/06.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/07.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/08.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/09.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/10.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/11.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/12.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/13.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/14.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/15.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/16.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/17.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/18.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/19.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/20.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/21.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/22.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/23.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/24.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/25.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/26.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/27.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/28.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/29.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/30.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/31.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/32.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/33.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/34.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/35.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/36.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/37.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/38.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/39.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/40.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/41.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/42.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/43.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/44.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/45.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/46.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/47.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/48.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/49.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/50.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/51.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/52.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/53.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/54.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/55.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/56.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/57.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/58.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/59.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/jardimsensorial/60.jpg" alt="" /></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Encontro na Praça do Cruzeiro</div>
+                <div class="textoGaleria">Reunião na Praça do Cruzeiro, na vila de Ponta Negra com os mestres e
+                    participantes do Projoto Saberes Sustentáveis - 19/03/2022.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+
+                    <div class="capas">
+
+                        <div class="capa">
+                            <img src="imgs/albuns/pracadocruzeiro/01.jpg" alt="" />
+                        </div>
+
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/pracadocruzeiro/01.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/02.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/03.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/04.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/05.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/06.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/07.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/08.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/09.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/10.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/11.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/12.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/13.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/14.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pracadocruzeiro/15.jpeg" alt="" /></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="boxGaleria">
+               
+                <div class="controleAlbum">
+                    <button class="mudarAlbum" onclick="btAlbumAnter ()">
+                        <ion-icon name="arrow-back-sharp"></ion-icon> Álbum Anterior
+                    </button>
+                    <p class="mudarAlbum">|</p>
+                    <button class="mudarAlbum" onclick="btProxAlbum()">
+                        Próximo Álbum <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="tituloGaleria">Mestres de Pium</div>
+                <div class="textoGaleria">Mestre Pedro, Mestre Miguel e Mestre Arraia - 16/05/2022.
+                </div>
+
+                <div class="divBtMudarFotos">
+                    <button class="mudarFoto" onclick="fotoAnterior()">
+                        <p>Anterior</p>
+                    </button>
+                    <p class="pBtMudarFotos">|</p>
+                    <button class="mudarFoto" onclick="proximaFoto()">
+                        <p>Próxima</p>
+                    </button>
+                </div>
+
+                <div class="boxAlbum">
+
+                    <div class="capas">
+                        <div class="capa">
+                            <img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/01.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <ul class="thumbs">
+                        <li class="active"><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/01.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/02.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/03.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/04.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/05.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/07.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/08.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/09.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/10.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/11.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/12.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/13.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/14.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/15.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/16.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/17.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/18.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/19.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/20.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/21.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/22.jpg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/23.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/24.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/25.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/26.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/27.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/28.jpeg" alt="" /></li>
+                        <li><img src="imgs/albuns/pium-mestrepedro-Miguel-Arraia/29.jpeg" alt="" /></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2022. Projeto Saberes Sustentáveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+
+
+
+</body>
+
+</html>

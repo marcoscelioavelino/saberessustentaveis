@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "greatfriend";
+    src: url("fonts/GreatFriend.ttf");
+}
+
+@font-face {
+    font-family: "msr";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mssb";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+.bodyAudiogramas {
+    background-image: url(imgs/bgaudio3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.tituloPgAudio {
+    display: flex;
+    font-family: mssb;
+    font-size: 3rem;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+
+}
+
+.conteudoAudios {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.boxAudios {
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    background-color: rgba(255, 255, 255, 0.2);
+    align-items: center;
+    margin-top: 1em;
+    border-radius: 10px;
+    padding-top: 1.2em;
+    padding-bottom: 0;
+    /* padding-left: 0.8em;   */
+    /* padding-right: 0.8em;   */
+}
+
+.boxAudios:hover {
+    transform: scale(1.02);
+}
+
+iframe {
+    margin-left: 1em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 102%;
+    height: 3.2em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 7em;
+}
+
+
+.rodape p {
+
+    font-family: msr;
+    color: #000000;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+}
+
+
+
+@media screen {
+
+    @media (max-width: 400px) {
+
+        .bodyAudiogramas {
+            background-size: 100%;
+            background-color: #5b7681;
+            background-image: none;
+        }
+
+        .navAudios {
+            background-image: url(imgs/bgaudio2.jpg);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: 100%;
+            height: 10em;
+        }
+
+        .iFrameAudio {
+            width: 15em;
+        }
+
+        .rodape p {
+            font-size: .8rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 1030px) {
+
+        .bodyAudiogramas {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-color: #5b7681;
+        }
+    }
+}

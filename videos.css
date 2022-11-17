@@ -1,0 +1,127 @@
+.bodyVideos  {
+    background-image: url(imgs/bgvideo2.png);
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+
+.tituloPgVideos {
+    display: flex;
+    font-family: mssb;
+    font-size: 3rem;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+
+}
+
+.conteudoVideos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxVideos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22em;
+    height: 22em;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-top: 2em;
+    border-radius: 10px;
+    border: 0.05em solid #ffffff;
+}
+
+.iFrame {
+    margin: 0;
+    margin-top: 1em;
+    display: flex;
+    border-radius: 15px;
+    border: 1.5px solid #ffffff;
+}
+.iFrameYoutube {
+    border-radius: 15px;
+}
+
+.tituloBoxVideo {
+    color: #000000;
+    font-family: msr;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-top: 1em;
+
+}
+
+.textoBoxVideo {
+    color: #000000;
+    font-style: italic;
+    font-family: msr;
+    font-size: 0.8rem;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    text-indent: 1.5em;
+    text-align: left;
+    height: 10em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 1.8em;
+    position: relative;
+    margin-top: 7em;
+}
+
+
+.rodape p {
+
+    font-family: msr;
+    color: #000000;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+}
+
+@media screen {
+
+    @media (max-width: 400px) {
+
+        .bodyVideos {
+            background-size: 100%;
+            background-color:#5b7681 ;
+            background-image: none;
+        }
+
+        .navVideos {
+            background-image: url(imgs/bgvideo2.png);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: 100%;
+            height: 10em;
+        }
+        .tituloBoxVideo {
+            color: #ffffff;
+        }
+        .textoBoxVideo {
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "greatfriend";
+    src: url("fonts/GreatFriend.ttf");
+}
+
+@font-face {
+    font-family: "msr";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mssb";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+    background-image: url(imgs/bgindex.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    border-radius: 0px 0px 75px 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+#index {
+    position: sticky;
+    top: 0;
+    background-color: rgba(32, 36, 19, 0.4);
+    z-index: 0;
+}
+
+
+nav {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 150em;
+
+}
+
+.imgLogo {
+    width: 12em;
+    margin-left: 4em;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoUfrn {
+    height: 5em;
+}
+
+.logoFunpec {
+    height: 3em;
+    margin-left: 3em;
+}
+
+.imgLogosApoio {
+    height: 2em;
+    margin-right: 2.3em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 25em;
+    text-align: center;
+
+}
+
+.navMenu {
+    width: 7em;
+    position: relative;
+}
+
+.click {
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+}
+
+.linksNav {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.linksNavS {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 1.4em;
+}
+
+.linksNav:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+.linksNavS:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+
+.click,
+.links {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    border: none;
+    outline: none;
+    width: 6.9em;
+    color: #fff;
+}
+
+.click:hover {
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+    transform: scale(1.035);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 5.7em;
+    margin-left: 0.5em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.newlist {
+    transform: scaleY(1);
+    transition: 0.2s;
+}
+
+.links {
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+.links:hover {
+    background-color: #dfdfdf;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 7.1em;
+    color: #000000;
+    
+}
+
+
+.navLogo {}
+
+.navLogos {}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 58em;
+}
+
+.ladoEsquerdo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.ladoEsquerdoConteudo {
+    width: 35em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 0;
+}
+
+.tituloEsquerda {
+    font-family: mssb;
+    color: #ffffff;
+    text-shadow: 0.03em 0.03em rgba(0, 0, 0, 0.5);
+    font-size: 3.55rem;
+    text-align: left;
+    user-select: none;
+}
+
+
+
+.textoEsquerda {
+    font-size: .95rem;
+    font-family: msr;
+    color: #ffffff;
+    text-shadow: 0.03em 0.03em rgba(0, 0, 0, 0.9);  
+    user-select: none;
+}
+
+.museuLink {
+    font-size: .8rem;
+    font-family: msr;
+    color: #ffffff;
+    text-shadow: 0.035em 0.035em rgba(0, 0, 0, 0.9);
+    user-select: none;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.ladoDireito {
+    width: 50%;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladoDireitoConteudo {
+    width: 35em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    background-color: rgba(255, 255, 255, 0.035);
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 0.4em rgba(0, 0, 0, 0.1);
+}
+
+.tituloDireita {
+    margin-top: 1.5em;
+    font-family: mssb;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-align: left;
+    text-shadow: 0.09em 0.09em rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+    user-select: none;
+}
+
+.textoDireita {
+    width: 90%;
+    margin-top: 0.9em;
+    font-size: 0.7rem;
+    font-family: msr;
+    color: #ffffff;
+    text-indent: 2rem;
+    text-align: left;
+    text-shadow: 0.09em 0.09em rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    user-select: none;
+}
+
+/* CONTEÚDO SABERES */
+
+.conteudoSaberes {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -12.7em;
+
+}
+
+.saberes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 7.7em;
+    margin-top: 0em;
+}
+
+.tituloPG {
+    font-family: mssb;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+    margin-top: 3.3em;
+    height: auto;
+    margin-bottom: 2.5em;
+
+}
+
+.boxSaberes {
+    width: 19em;
+    height: 27em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: -5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgba(255, 255, 255, 0.20);
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.boxSaberes:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.imgBox {
+    display: flex;
+    width: 6.25em;
+    border-radius: 10px;
+    margin-top: 1.4em;
+    margin-bottom: 1.2em;
+    border: 1.5px solid #fff;
+}
+
+.imgBox:hover {
+    transform: perspective(500px) rotateY(-180deg);
+    transition: 1s;
+
+}
+
+.tituloSaberes {
+    color: #ffffff;
+    margin-bottom: 1em;
+    font-family: mssb;
+    font-size: 0.9rem;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.8);
+    font-style: italic;
+}
+
+.textoSaberes {
+    user-select: none;
+    margin-bottom: 1.2em;
+    margin-left: 2em;
+    margin-right: 1em;
+    color: #fff;
+    text-indent: 1.8em;
+    text-align: left;
+    font-family: msr;
+    font-size: 0.69rem;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+}
+
+.linkSaberes {
+    text-decoration: none;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 3em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+.rodape p {
+
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    font-family: msr;
+    color: #000000;
+    font-size: 0.8rem;
+    background-color: #ffffff;
+}
+
+/* MEDIA SCREEN*/
+
+
+
+@media screen {
+
+    @media (max-width: 1350px) {
+
+        body {
+            background-size: cover;
+
+        }
+
+        .boxSaberes {
+            margin-top: 2em;
+        }
+
+        .ladoEsquerdoConteudo {
+            height: 35em;
+            margin-top: 0em;
+
+        }
+
+        .tituloEsquerda {
+            margin-left: 1.5em;
+        }
+
+        .textoEsquerda {
+            margin-left: 5.8em;
+        }
+
+        .ladoDireito {
+            height: 45em;
+        }
+
+        .tituloDireita {
+            margin-top: 1.5em;
+        }
+
+        .tituloPG {
+            margin-top: 1em;
+            margin-bottom: 0;
+        }
+
+        .saberes {
+            width: 50em;
+        }
+    }
+
+    @media (max-width: 1240px) {
+
+        .ladoEsquerdoConteudo {
+            height: 40em;
+        }
+    }
+
+    @media (max-width: 1230px) {
+
+        body {
+
+            background-size: cover;
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .menu {
+            order: 3;
+        }
+
+        .navLogo {
+            order: 1;
+        }
+
+        .navLogos {
+            order: 2;
+        }
+
+        .imgLogo {
+            width: 14em;
+            margin-left: 0em;
+        }
+
+        .ladoEsquerdoConteudo {
+            height: 30em;
+        }
+
+        .ladoDireito {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ladoDireitoConteudo {
+            width: 30em;
+            height: 37.5em;
+            display: flex;
+            flex-direction: column;
+            margin-top: 1em;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0.4em 0.4em 0.4em rgba(0, 0, 0, 0.1);
+        }
+
+        .tituloDireita {
+            margin-top: 0.5em;
+            font-family: mssb;
+            color: #ffffff;
+            font-size: 1rem;
+            text-align: left;
+            text-shadow: 0.09em 0.09em rgba(0, 0, 0, 0.3);
+            margin-left: 2em;
+        }
+
+        .textoDireita {
+            margin-top: 0.5em;
+            font-size: 0.8rem;
+            font-family: msr;
+            margin-left: 2.5em;
+            margin-right: 2em;
+            margin-bottom: 1em;
+        }
+
+    }
+
+    @media (max-width: 990px) {
+
+        body {
+            background-size: 100%;
+            background-color: #000000;
+
+        }
+
+        .navLogos {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logoFunpec {
+            margin-left: 0;
+        }
+
+        .conteudo {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ladoEsquerdoConteudo {
+            margin-top: -3em;
+        }
+
+        .ladoDireitoConteudo {
+            width: 26em;
+            height: 43em;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .rodape {
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width: 400px) {
+
+        body {
+            background-size: 100%;
+            background-color: #000000;
+            background-image: none;
+        }
+
+        nav {
+            background-image: url(imgs/bgindex.jpg);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: 100%;
+            height: 10em; 
+        }
+
+        header {
+            border-radius: 0px 0px 0px 0px; 
+            /* background-color: rgba(255, 255, 255, 0.1); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border: none;
+            border-bottom: 3px solid #ffffff;
+        }
+
+        .imgLogo {
+            width: 9em;
+        }
+
+        .logoUfrn {
+            height: 4.5em;
+            /* width: 6em; */
+        }
+
+        .imgLogosApoio {
+            height: 1.8em;
+        }
+
+        .logoFunpec {
+            height: 2.2em;
+            margin-right: 1.5em;
+        }
+
+        .navLogos {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logoFunpec {
+            margin-left: 0;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .ladoEsquerdoConteudo {
+            margin-top: 1em;
+        }
+
+        .ladoEsquerdo {
+            margin-left: 0;
+            margin-top: 5em;
+            width: 100%;
+            background-color: #fdb913;
+        }
+
+        .tituloEsquerda {
+            font-size: 2.6rem;
+            margin-left: .49em;
+            margin-top: 2em;
+        }
+        .textoEsquerda {
+            margin-left: 1.5em;
+            margin-top: 1em;
+            
+        }
+
+        .ladoDireito {
+            margin-top: 7em;
+                    }
+
+        .ladoDireitoConteudo {
+            width: 19em;
+            height: 37em;
+            background-color: #863e35;
+            border-bottom: 3px solid #ffffff;
+            border-radius: 0px 0px 0px 0px; 
+        }
+
+        .textoDireita {
+            font-size: .7rem;
+            margin-right: 0.7em;
+        }
+
+        .tituloPG {
+            margin-top: 11em;
+            font-size: 2.4rem;
+            margin-left: 1.8em;
+        }
+
+        .ladoDireitoConteudo {
+            width: 25em;
+        }
+        .tituloDireita {
+            margin-top: 1em;
+        }
+
+        .conteudoSaberes {
+            display: flex;
+            flex-direction: column;
+            width: 25em;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: #3b8824;
+            border-top: 1px solid #ffffff;
+        }
+        .saberes {
+            width: 22em;
+        }
+
+        .ladoEsquerdo {
+            order: 1;
+        }
+        .ladoDireito {
+            order: 2;
+        }
+        .saberes {
+            order: 3;
+        }
+
+        .rodape {
+            text-align: center;
+            width:25em;
+        }
+
+
+    }
+
+}

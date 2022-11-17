@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyFotos {
+    background-image: url(imgs/bgfotos.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.tituloPgFotos {
+    display: flex;
+    font-family: mssb;
+    font-size: 2.6rem;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6em;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.conteudoFotos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.boxGaleria {
+    display: none;
+}
+
+.tituloGaleria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6em;
+    color: #ffffff;
+    font-family: mssb;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.textoGaleria {
+    width: 37em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    color: #ffffff;
+    font-family: msr;
+    font-size: .85rem;
+    text-indent: 2rem;
+}
+
+.boxAlbum {
+    width: 38em;
+    box-sizing: border-box;
+}
+
+
+.capas {}
+
+.capa {
+    float: right;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    border: 2px solid #db9f08;
+}
+
+
+
+.thumbs {
+    float: left;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbs li {
+    float: left;
+    width: 100%;
+    border: 2px solid #ccc;
+    width: calc((100% - 16%) / 6);
+    margin-right: 2%;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+.thumbs li:hover {
+    border: 2px solid #ffffff;
+}
+
+.thumbs li.active {
+    border: 2px solid #db9f08;
+
+}
+
+
+.thumbs li:not(:last-child) {
+    margin-right: 2%;
+}
+
+.divBtMudarFotos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pBtMudarFotos {
+    margin-top: 1em;
+    margin-left: .3em;
+    margin-right: .3em;
+    color: #ffffff;
+}
+
+.mudarFoto {
+    margin-top: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    background-color: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-family: msr;
+    font-style: italic;
+    font-size: .7rem;
+}
+
+.mudarFoto:hover {
+    transform: scale(1.08);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.mudarAlbum {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    background-color: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: .75rem;
+
+}
+
+.mudarAlbum:hover {
+    transform: scale(1.03);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.controleAlbum {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-content: top;
+    margin-top: .5em;
+}
+
+.galeriaAtiva {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+    max-width: auto;
+    width: 45em;
+    height: 40em;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: .4em;
+    border-radius: 10px;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: 0.08em solid #ffffff;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 3.1em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 4.55em;
+}
+
+
+.rodape p {
+
+    font-family: msr;
+    color: #000000;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+}
+
+
+@media screen {
+
+    @media (max-width: 1100px) {
+
+        body {
+
+            background-size: cover;
+
+        }
+
+        .bodyFotos {
+            background-size: 128%;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .menu {
+            order: 3;
+        }
+
+        .navLogo {
+            order: 1;
+        }
+
+        .navLogos {
+            order: 2;
+        }
+
+        .imgLogo {
+            width: 14em;
+            margin-left: 0em;
+        }
+    }
+
+    @media (max-width: 480px) {
+
+        .bodyFotos {
+            background-size: 100%;
+            background-color: #fdb913;
+            background-image: none;
+        }
+
+        .navFotos {
+            background-image: url(imgs/bgfotos.jpg);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: 100%;
+            height: 10em;
+        }
+
+        .rodape p {
+            font-size: .8rem;
+            text-align: center;
+        }
+
+        .tituloPgFotos {
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+            font-size: 2.2rem;
+        }
+
+        .conteudoFotos {
+            width: 23em;
+            display: flex;
+        }
+
+        .galeriaAtiva {
+            width: 23.5em;
+            margin-left: .4em;
+            overflow: auto;
+        }
+
+        .capa {
+            width: 30em;
+            float: center;
+            display: flex;
+            box-sizing: border-box;
+            margin-top: 0;
+            border: 2px solid #db9f08;
+            margin-right: .5em;
+        }
+
+        #idImgCapa {
+            width: 23em;
+            overflow: auto;
+            margin-right: 2em;
+        }
+
+        .tituloGaleria {
+            width: auto;
+            font-size: 1.8rem;
+            text-shadow: 0.03em 0.03em rgba(0, 0, 0, 0.7);
+
+        }
+
+        .textoGaleria {
+            width: auto;
+            margin-left: 1em;
+            text-shadow: 0.03em 0.03em rgba(0, 0, 0, 0.7);
+
+        }
+
+        .thumbs {
+            width: 28em;
+            margin-left: 0;
+            display: flex;
+            align-items: center;
+            float: right;
+            margin-left: 0;
+            margin-right: 2em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow-y: none;
+
+        }
+
+        .thumbs:li {
+            width: 20em;
+            margin-left: 0;
+            display: flex;
+            align-items: center;
+            float: right;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+}
