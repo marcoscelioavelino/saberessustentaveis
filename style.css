@@ -659,6 +659,7 @@ nav {
             margin-top: 5em;
             width: 100%;
             background-color: #fdb913;
+            order:1;
         }
 
         .tituloEsquerda {
@@ -676,6 +677,7 @@ nav {
             margin-top: 7em;
             width: 100%;
             margin-left: 0;
+            order:2;
         }
 
         .ladoDireitoConteudo {
