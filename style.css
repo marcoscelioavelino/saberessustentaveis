@@ -674,8 +674,7 @@ nav {
 
         .ladoDireito {
             margin-top: 7em;
-            margin-left: 0;
-                    }
+        }
 
         .ladoDireitoConteudo {
             width: 19em;
@@ -683,6 +682,7 @@ nav {
             background-color: #863e35;
             border-bottom: 3px solid #ffffff;
             border-radius: 0px 0px 0px 0px; 
+            margin-left: 0;
         }
 
         .textoDireita {
