@@ -675,6 +675,7 @@ nav {
         .ladoDireito {
             margin-top: 7em;
             width: 100%;
+            margin-left: 0;
         }
 
         .ladoDireitoConteudo {
