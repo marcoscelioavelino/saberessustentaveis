@@ -677,7 +677,7 @@ nav {
             margin-top: -1em;
             width: 100%;
             margin-left: 0;
-            border-top: 1px solid #ffffff;           
+            border-top: 3px solid #ffffff;           
         }
 
         .ladoDireitoConteudo {
@@ -714,7 +714,7 @@ nav {
             align-items: center;
             justify-content: center;
             background-color: #3b8824;
-            border-top: 1px solid #ffffff;
+            border-top: 1px solid #ffffff;  
         }
         .saberes {
             width: 22em;
