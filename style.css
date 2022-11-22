@@ -659,7 +659,7 @@ nav {
             margin-top: 5em;
             width: 100%;
             background-color: #fdb913;
-            order:1;
+           
         }
 
         .tituloEsquerda {
@@ -677,11 +677,10 @@ nav {
             margin-top: 7em;
             width: 100%;
             margin-left: 0;
-            order:2;
+           
         }
 
         .ladoDireitoConteudo {
-            /*width: 19em;*/
             height: 37em;
             background-color: #863e35;
             border-bottom: 3px solid #ffffff;
@@ -701,7 +700,7 @@ nav {
         }
 
         .ladoDireitoConteudo {
-            width: 25em;
+            width: auto;
         }
         .tituloDireita {
             margin-top: 1em;
@@ -710,7 +709,7 @@ nav {
         .conteudoSaberes {
             display: flex;
             flex-direction: column;
-            width: 25em;
+            width: auto;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
