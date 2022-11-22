@@ -674,7 +674,7 @@ nav {
         }
 
         .ladoDireito {
-            margin-top: 0;
+            margin-top: -1em;
             width: 100%;
             margin-left: 0;
            
@@ -732,7 +732,7 @@ nav {
 
         .rodape {
             text-align: center;
-            width:25em;
+            width: auto;
         }
 
 
