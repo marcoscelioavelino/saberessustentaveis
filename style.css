@@ -674,10 +674,11 @@ nav {
 
         .ladoDireito {
             margin-top: 7em;
+            width: 100%;
         }
 
         .ladoDireitoConteudo {
-            width: 19em;
+            /*width: 19em;*/
             height: 37em;
             background-color: #863e35;
             border-bottom: 3px solid #ffffff;
