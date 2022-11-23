@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 @font-face {
     font-family: "greatfriend";
     src: url("fonts/GreatFriend.ttf");
@@ -23,7 +19,7 @@ html {
 }
 
 body {
-    background-image: url(imgs/bgindex.jpg);
+    background-image: url(imgs/bgcontato.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -192,10 +188,6 @@ nav {
 .navLogo {}
 
 .navLogos {}
-.bodyContato {
-    background-image: url(imgs/bgcontato.jpg);
-    background-repeat: no-repeat;
-}
 
 .conteudoContato {
     width: 100%;
