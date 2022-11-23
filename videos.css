@@ -100,7 +100,7 @@
 
 @media screen {
 
-    @media (max-width: 400px) {
+    @media (max-width: 515px) {
 
         .bodyVideos {
             background-size: 100%;
