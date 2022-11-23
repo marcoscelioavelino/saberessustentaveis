@@ -17,10 +17,8 @@
 }
 
 .ladoEsquerdo {
-   /* width: 50%; */
     width: auto;
     display: flex;
-  /*  flex-direction: row; */
     justify-content: center;
     align-content: center;
 }
@@ -241,10 +239,7 @@ textarea {
             background-image: none;
             background-color: #fdb913 ;
         }
-        .ladoEsquerdo {
-            display: flex;
-            
-        }
+  
         .conteudoContato {
             width: auto;
             background-image: none;
@@ -267,9 +262,23 @@ textarea {
 
         .tituloEsquerdaCnt {
             font-size: 2.5rem;
-            text-align: left;
-            margin-left: 0;
-            margin-bottom: 15em;
+            text-align: center;
+            margin-left: -7em;
+            margin-bottom: 18em;
+        }
+
+        .ladoEsquerdo {
+            display: flex;
+            flex-wrap: wrap;
+            background: none;
+        }
+
+        .ladoEsquerdoConteudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            
         }
 
         .ladoDireitoConteudoContato {
@@ -279,9 +288,12 @@ textarea {
             background-color: rgba(0, 0, 0, 0.2);
             border: #ffffff 1.59px solid;
             box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.1);
-            /*margin-left: -15em;*/
+            margin-top: 8em;
+            margin-left: 6em
         }
-/*
+
+
+
         #ladoEsquerdoOk {
             display: none;
         }
@@ -291,7 +303,7 @@ textarea {
             order: 2;
         }
 
-        .tituloEsquerdaCnt {
+        .ladoEsquerdoConteudo {
             order: 1;       
         }
         
@@ -299,6 +311,6 @@ textarea {
             text-align: center;
             width: auto;
         }
-*/
+
     }
 }
