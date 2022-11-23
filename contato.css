@@ -242,7 +242,7 @@ textarea {
         }
 
         .conteudoContato {
-            width: 20em;
+            width: auto;
             background-image: none;
             display: flex;
             flex-direction: column;
