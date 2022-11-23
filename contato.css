@@ -232,7 +232,7 @@ textarea {
 
 @media screen {
 
-    @media (max-width: 400px) {
+    @media (max-width: 515px) {
 
         .bodyContato {
             background-size: 100%;
