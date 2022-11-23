@@ -61,15 +61,12 @@ html {
 .boxAudios {
     display: flex;
     flex-direction: column;
-    width: 50em;
+    width: 40em;
     background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center;
     align-items: center;
     margin-top: 1em;
     border-radius: 10px;
-    padding-top: 1.2em;
-    padding-bottom: 0;
-    /* padding-left: 0.8em;   */
-    /* padding-right: 0.8em;   */
 }
 
 .boxAudios:hover {
@@ -78,6 +75,15 @@ html {
 
 iframe {
     margin-left: 1em;
+}
+
+.iFrameAudio {
+    padding-top: .55em;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 25em;
+    height: 10em;
 }
 
 .rodape {
@@ -107,7 +113,7 @@ iframe {
 
 @media screen {
 
-    @media (max-width: 400px) {
+    @media (max-width: 515px) {
 
         .bodyAudiogramas {
             background-size: 100%;
