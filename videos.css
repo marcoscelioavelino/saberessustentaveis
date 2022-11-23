@@ -4,7 +4,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 124%;
+    background-size: 130%;
     height: auto;
     background-attachment: fixed;
 }
@@ -114,7 +114,7 @@
         }
 
         .boxVideos {
-            width: 25em;
+            width: 24em;
             height: 24em;
         }
         .iFrameYoutube {
@@ -136,7 +136,7 @@
         }
         .textoBoxVideo {
             color: #ffffff;
-            width: 22em;
+            width: 24em;
         }
     }
 }
