@@ -659,7 +659,7 @@ nav {
             margin-top: 5em;
             width: 100%;
             background-color: #fdb913;
-            border-bottom: 2px solid #ffffff;
+            border-bottom: 3px solid #ffffff;
         }
 
         .tituloEsquerda {
@@ -676,8 +676,7 @@ nav {
         .ladoDireito {
             margin-top: -1em;
             width: 100%;
-            margin-left: 0;
-             /* border-top: 3px solid #ffffff;   */         
+            margin-left: 0;        
         }
 
         .ladoDireitoConteudo {
