@@ -3,6 +3,492 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "greatfriend";
+    src: url("fonts/GreatFriend.ttf");
+}
+
+@font-face {
+    font-family: "msr";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mssb";
+    src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+    background-image: url(imgs/bgindex.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    border-radius: 0px 0px 75px 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+#index {
+    position: sticky;
+    top: 0;
+    background-color: rgba(32, 36, 19, 0.4);
+    z-index: 0;
+}
+
+
+nav {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 150em;
+
+}
+
+.imgLogo {
+    width: 12em;
+    margin-left: 4em;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoUfrn {
+    height: 5em;
+}
+
+.logoFunpec {
+    height: 3em;
+    margin-left: 3em;
+}
+
+.imgLogosApoio {
+    height: 2em;
+    margin-right: 2.3em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 25em;
+    text-align: center;
+
+}
+
+.navMenu {
+    width: 7em;
+    position: relative;
+}
+
+.click {
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+}
+
+.linksNav {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.linksNavS {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 1.4em;
+}
+
+.linksNav:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+.linksNavS:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+
+.click,
+.links {
+    padding: 0.2em;
+    font-size: 0.8rem;
+    font-family: msr;
+    border: none;
+    outline: none;
+    width: 6.9em;
+    color: #fff;
+}
+
+.click:hover {
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+    transform: scale(1.035);
+    border-bottom: 0.1px solid #ffffff;
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 5.7em;
+    margin-left: 0.5em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.newlist {
+    transform: scaleY(1);
+    transition: 0.2s;
+}
+
+.links {
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+.links:hover {
+    background-color: #dfdfdf;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 7.1em;
+    color: #000000;
+    
+}
+
+
+.navLogo {}
+
+.navLogos {}
+.bodyContato {
+    background-image: url(imgs/bgcontato.jpg);
+    background-repeat: no-repeat;
+}
+
+.conteudoContato {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ladoEsquerdo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.ladoEsquerdoConteudo {
+    width: 35em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.tituloEsquerdaCnt {
+    font-family: mssb;
+    color: #ffffff;
+    line-height: 1em;
+    text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
+    text-align: left;
+    user-select: none;
+    margin-left: 3em;
+}
+
+.textoEsquerda {
+    margin-top: 0.5em;
+    font-size: 1.3rem;
+    font-family: msr;
+    color: #ffffff;
+    text-shadow: 0.09em 0.09em rgba(0, 0, 0, 0.9);
+    user-select: none;
+}
+
+.ladoDireitoContato {
+    width: 50%;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladoDireitoConteudoContato {
+    width: 18em;
+    height: 31em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: #ffffff 1.59px solid;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 0.4em rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-left: 10em;
+}
+
+.conteudoBoxOk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f60707;
+}
+
+.tituloDireitaContato {
+    margin-top: 1em;
+    font-family: mssb;
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0.09em 0.09em rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+.formulario {
+    margin-top: auto;
+    margin-bottom: 2em;
+    width: 20em;
+    max-height: 30em;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario-itens {
+    font-size: .75rem;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1em;
+    color: #ffffff;
+    font-family: msr;
+}
+
+.formulario-itens input {
+    height: 1.5em;
+}
+
+.formItens {
+    margin-top: 2.5em;
+}
+
+.botao {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    height: 2.2em;
+    border-radius: 15px;
+    margin-bottom: 1.6em;
+    margin-top: 1em;
+    border: 0.1px solid #000000;
+}
+
+.botaoTxt {
+    color: #000000;
+    cursor: pointer;
+    font-family: msr;
+    font-size: 0.8rem;
+}
+
+.botaoTxt:hover {
+    transform: scale(1.05);
+}
+
+.redesS {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.redes2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.iconesRedes {
+    cursor: pointer;
+    font-style: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.iconesRedes:hover {
+    transform: scale(1.06);
+}
+
+.iconesRedes2 {
+
+    font-style: none;
+    color: #ffffff;
+    font-size: .8rem;
+    margin-bottom: 1.5em;
+    margin-top: .5em;
+    user-select: none;
+    font-family: msr;
+
+}
+
+.linkMuseu {
+    font-family: msr;
+    font-size: .9rem;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.linkMuseu:hover {
+    transform: scale(1.03);
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+
+textarea {
+    height: 12em;
+    resize: none;
+    overflow: scroll;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 3em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+.rodape p {
+
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    font-family: msr;
+    color: #000000;
+    font-size: 0.8rem;
+    background-color: #ffffff;
+}
+
+@media screen {
+
+    @media (max-width: 515px) {
+
+        .bodyContato {
+            background-size: 100%;
+            background-image: none;
+            width: auto;
+            background-color: #fdb913 ;
+        }
+
+        .conteudoContato {
+            background-image: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .navContato {
+            background-image: url(imgs/bgcontato.jpg);
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: 100%;
+            height: 10em;
+        }
+
+        .tituloEsquerdaCnt {
+            font-size: 2.5rem;
+            text-align: left;
+            margin-left: 0;
+            margin-top: 0;
+            margin-bottom: 5em;
+        }
+
+        .ladoDireitoConteudoContato {
+            width: 18em;
+            display: flex;
+            flex-direction: row;
+            margin-top: -11.7em;
+            background-color: rgba(0, 0, 0, 0.2);
+            border: #ffffff 1.59px solid;
+            box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.1);
+            margin-left: 0;
+        }
+
+        #ladoEsquerdoOk {
+            display: none;
+        }
+
+        #idDivOk {
+           margin-top: initial; 
+        }
+ 
+        .ladoDireitoContato {
+            order: 2;
+        }
+
+        .ladoEsquerdo {
+            order: 1;       
+        }
+
+    }
+}
+
+
 .bodyContato {
     background-image: url(imgs/bgcontato.jpg);
     background-repeat: no-repeat;
