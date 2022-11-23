@@ -114,8 +114,8 @@
         }
 
         .boxVideos {
-            width: 22em;
-            height: 22em;
+            width: 25em;
+            height: 24em;
         }
         .iFrameYoutube {
            border-radius: 15px;
@@ -136,6 +136,7 @@
         }
         .textoBoxVideo {
             color: #ffffff;
+            width: 22em;
         }
     }
 }
