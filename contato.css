@@ -241,7 +241,10 @@ textarea {
             background-image: none;
             background-color: #fdb913 ;
         }
-
+        .ladoEsquerdo {
+            display: flex;
+            
+        }
         .conteudoContato {
             width: auto;
             background-image: none;
@@ -266,7 +269,7 @@ textarea {
             font-size: 2.5rem;
             text-align: left;
             margin-left: 0;
-            margin-bottom: 10em;
+            margin-bottom: 15em;
         }
 
         .ladoDireitoConteudoContato {
@@ -282,7 +285,7 @@ textarea {
         #ladoEsquerdoOk {
             display: none;
         }
-
+        
  
         .ladoDireitoConteudoContato {
             order: 2;
