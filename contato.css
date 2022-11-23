@@ -242,6 +242,7 @@ textarea {
         }
 
         .conteudoContato {
+            width: 20em;
             background-image: none;
             display: flex;
             flex-direction: column;
@@ -272,7 +273,7 @@ textarea {
             width: 18em;
             display: flex;
             flex-direction: row;
-            margin-top: -11.7em;
+            /* margin-top: -11.7em; */ 
             background-color: rgba(0, 0, 0, 0.2);
             border: #ffffff 1.59px solid;
             box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.1);
@@ -293,6 +294,11 @@ textarea {
 
         .ladoEsquerdo {
             order: 1;       
+        }
+        
+        .rodape {
+            text-align: center;
+            width: auto;
         }
 
     }
