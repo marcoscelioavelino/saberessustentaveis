@@ -289,7 +289,8 @@ textarea {
             border: #ffffff 1.59px solid;
             box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.1);
             margin-top: 9em;
-            margin-left: 6em
+            margin-left: auto;
+            margin-right: auto;
         }
 
 
