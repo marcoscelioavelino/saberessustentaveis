@@ -67,6 +67,8 @@ html {
     align-items: center;
     margin-top: 1em;
     border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .boxAudios:hover {
