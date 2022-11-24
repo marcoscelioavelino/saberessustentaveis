@@ -249,7 +249,8 @@ textarea {
             align-items: center;
             justify-content: center;
         }
-
+        
+       
         .navContato {
             background-image: url(imgs/bgcontato.jpg);
             background-repeat: no-repeat;
@@ -259,7 +260,11 @@ textarea {
             background-size: 100%;
             height: 10em;
         }
-
+    
+           #idDivOk {
+            margin-right: 2em;
+        }
+ 
         .tituloEsquerdaCnt {
             font-size: 2.5rem;
             text-align: center;
