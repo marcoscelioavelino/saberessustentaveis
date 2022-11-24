@@ -608,12 +608,15 @@ nav {
 
         header {
             border-radius: 0px 0px 0px 0px; 
-            /* background-color: rgba(255, 255, 255, 0.1); */
             width: 100%;
             display: flex;
             justify-content: center;
             border: none;
             border-bottom: 3px solid #ffffff;
+        }
+
+        .list {
+            background-color: rgba(0, 0, 0, 0.3);
         }
 
         .imgLogo {
@@ -622,7 +625,7 @@ nav {
 
         .logoUfrn {
             height: 4.5em;
-            /* width: 6em; */
+        
         }
 
         .imgLogosApoio {
