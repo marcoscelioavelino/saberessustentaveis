@@ -153,6 +153,12 @@ img {
     font-size: .7rem;
 }
 
+p.mudarFoto {
+    cursor: default;
+}
+
+p.divBtMudarFotos 
+
 .mudarFoto:hover {
     transform: scale(1.08);
     text-decoration: underline;
@@ -175,6 +181,10 @@ img {
     transform: scale(1.03);
     text-decoration: underline;
     transition: 0.2s;
+}
+
+p.mudarAlbum {
+    cursor: default;
 }
 
 .controleAlbum {
