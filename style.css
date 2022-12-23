@@ -729,7 +729,7 @@ nav {
         }
 
         .ladoDireitoConteudo {
-            height: 37em;
+            height: 42em;
             background-color: #863e35;
             border-bottom: 3px solid #ffffff;
             border-radius: 0px 0px 0px 0px; 
@@ -739,6 +739,7 @@ nav {
         .textoDireita {
             font-size: .7rem;
             margin-right: 0.7em;
+            margin-bottom: 1em;
         }
 
         .tituloPG {
