@@ -130,7 +130,7 @@ nav {
 .linksNav:hover {
     cursor: pointer;
     transform: scale(1.04);
-    border-bottom: 0.1px solid #ffffff;
+    text-decoration: underline;
 }
 
 .linksNavS:hover {
