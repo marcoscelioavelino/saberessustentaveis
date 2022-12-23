@@ -152,7 +152,6 @@ nav {
 }
 
 .click:hover {
-    border-bottom: 1px solid #ffffff;
     cursor: pointer;
     transform: scale(1.035);
     text-decoration: underline;
