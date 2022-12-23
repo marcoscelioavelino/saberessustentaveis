@@ -768,6 +768,30 @@ nav {
             width: 22em;
         }
 
+        .conteudoFabrica {    
+            flex-direction: column;
+            width: 100%;
+            border-radius: 0;
+            margin-bottom: 0;
+            background-color: #5b7681;
+            border: none;
+        }
+        .logoFabrica {
+            width: 15em;
+        }
+        .ladoEsquerdoFabrica {
+            width: 100%;
+            border-radius: 0;
+            border-top: .15em solid #ffffff;
+        }
+        .ladoDireitoFabrica {
+            width: 100%;
+        }
+        .textoFabrica {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
         .ladoEsquerdo {
             order: 1;
         }
