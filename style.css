@@ -420,7 +420,7 @@ nav {
     flex-direction: column;
 }
 
-.textoFabrica {
+.textoFabrica, .textoFabrica2 {
     user-select: none;
     margin-left: 3em;
     margin-right: 3em;
@@ -790,7 +790,11 @@ nav {
         }
         .textoFabrica {
             margin-top: 1em;
-            margin-bottom: 1em;
+            margin-bottom: 0;
+        }
+        .textoFabrica2 {
+            margin-top: 1em;
+            margin-bottom: 3em;
         }
 
         .ladoEsquerdo {
