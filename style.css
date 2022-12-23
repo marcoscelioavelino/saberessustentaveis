@@ -394,7 +394,7 @@ nav {
 /* CONTEÚDO FÁBRICA DE INVENTOS */
 
 .conteudoFabrica {    
-    width: 99.5%;
+    width: 90%;
     display: flex;
     margin-bottom: 1em;
     border: 0.01em solid #ffffff;
