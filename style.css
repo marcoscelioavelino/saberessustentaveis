@@ -155,7 +155,7 @@ nav {
     border-bottom: 1px solid #ffffff;
     cursor: pointer;
     transform: scale(1.035);
-    border-bottom: 0.1px solid #ffffff;
+    text-decoration: underline;
 }
 
 .list {
